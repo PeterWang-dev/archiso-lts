@@ -50,6 +50,7 @@ ldns
 less
 lftp
 libfido2
+libunwind
 libusb-compat
 linux-lts
 linux-lts-headers
@@ -128,4 +129,6 @@ wvdial
 xdg-utils
 xfsprogs
 xl2tpd
+zfs-dkms
+zfs-utils
 zsh

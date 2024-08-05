@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="archlinux-lts"
-iso_label="ARCH_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_name="archlinux-zfs"
+iso_label="ARCHZFS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="Arch Linux <https://archlinux.org>"
 iso_application="Arch Linux Live/Rescue DVD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
@@ -20,6 +20,6 @@ file_permissions=(
   ["/root/.automated_script.sh"]="0:0:755"
   ["/root/.gnupg"]="0:0:700"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
-  ["/usr/local/bin/Installation_guide"]="0:0:755"
+  ["/usr/local/bin/chroot_config"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
 )

@@ -1,5 +1,8 @@
-To install [38;2;23;147;209mArch Linux[0m follow the installation guide:
+[1mWelcome to the Arch Linux with OpenZFS support ISO![0m
+
+To install [38;2;23;147;209mArch Linux[0m [1mwith ZFS[0m follow the installation guide:
 https://wiki.archlinux.org/title/Installation_guide
+https://wiki.archlinux.org/title/Install_Arch_Linux_on_ZFS
 
 For Wi-Fi, authenticate to the wireless network using the [35miwctl[0m utility.
 For mobile broadband (WWAN) modems, connect with the [35mmmcli[0m utility.
